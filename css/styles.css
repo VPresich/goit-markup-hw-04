@@ -2,7 +2,6 @@ body {
   font-family: 'Roboto', sans-serif;
   color: #434455;
   background-color: #ffffff;
-  width: 1440px;
 }
 a {
   text-decoration: none;
@@ -190,7 +189,7 @@ img {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  margin: 0px;
+  margin: auto;
   padding: 188px 0px;
 }
 
@@ -266,7 +265,6 @@ img {
   padding: 24px 100px;
   flex-shrink: 0;
   border-radius: 4px;
-  border: 1px solid #8e8f99; /*var(--lightslate, #8e8f99); */
   background-color: #f4f4fd; /*var(--cloud, #f4f4fd);*/
   margin-bottom: 8px;
 }
@@ -421,7 +419,6 @@ img {
 }
 
 .portfolio-card:hover {
-  border: 1px solid #f4f4fd;
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
